@@ -166,7 +166,28 @@ newtr.appendChild(newtdr);
 //newtd.appendChild(newIconbtn);
   if (inpt1 == "") {
     alert("Please Enter state name before clicking Add Button");
-  } else {
+  } 
+  else{
+  let isInserted = false;
+
+var table = document.getElementById('tbl4');
+// Iterate through the rows of the table
+for (var i = 0; i < table.rows.length; i++) {
+  // Access the first cell (cell 0) of each row
+  var cell = table.rows[i].cells[0];
+
+  // Check if the cell's value matches the inpt1 value
+  if (cell.textContent == inpt1) {
+    isInserted = true;
+    break; // If you want to stop searching after finding the first occurrence
+  }
+}
+if (isInserted) {
+  alert("You have already enter a state name by the same name.");
+  document.getElementById("inp1").value = "";
+}
+  else {
+
     document.getElementById('tbodyt4').appendChild(newtr);
     
  //document.getElementById('potobjlist').appendChild(newLi);
@@ -238,7 +259,7 @@ selectt5b.appendChild(newOptiont5b);
 }
 
 }
-
+}
   /************************************ Function for Table 2 ********************************************/
  var inpt2, actevnt,lengthact;
   function addbtnt2() {
@@ -281,8 +302,28 @@ else if(acteval == "Action Label"){
 else  if (inpt2 == "") {
     alert("Please Enter Action Expression Before Clicking Add Button");
   } 
+  /* else{
+    let isInserted = false;
+  
+  var table = document.getElementById('tbl4');
+  // Iterate through the rows of the table
+  for (var i = 0; i < table.rows.length; i++) {
+    // Access the first cell (cell 0) of each row
+    var cell = table.rows[i].cells[1];
+  
+    // Check if the cell's value matches the inpt1 value
+    if (cell.textContent == inpt2) {
+      isInserted = true;
+      break; // If you want to stop searching after finding the first occurrence
+    }
+  }
+  if (isInserted) {
+    alert("You have already enter an activity by the same name.");
+    document.getElementById("inp2").value = "";
+  } */
   
   else{
+    
     document.getElementById("activ_"+stateval ).appendChild(newuLi);
      actevnt= acteval+"/"+inpt2;
     arractivity.push(actevnt);
@@ -292,7 +333,7 @@ else  if (inpt2 == "") {
 
 document.getElementById("inp2").value="";
 document.getElementById("ftbl2").reset();
-
+  
 
 }
 
@@ -503,21 +544,21 @@ newIconbtn.appendChild(newIconbtni);
 
 function drawbtex1(){
   
-  if((lengthact == 3)  && (lenstate == 4) &&(lenevent == 6) ){
+  if((lengthact >= 3)  && (lenstate >= 4) &&(lenevent >= 6) ){
 
     document.getElementById('dispuml1').style.display = "block";
   } 
-  else if((lengthact != 3)){
+  else if((lengthact != 3)|| (lengthact < 3)){ //Activities
     alert("Enter the activities for each state");
     document.getElementById('dispuml1').style.display = "none";
   }
 
-  else if((lenstate != 4)){
-    alert("Enter all possible state transiiton in the table");
+  else if((lenstate != 4) (lenstate < 4)){ //state name
+    alert("Enter state name in the table. \n\n Hint: From the given problem statement, there are three states. Intial and Final states are given in the dropdown of table 5.");
     document.getElementById('dispuml1').style.display = "none";
   }
-  else if (lenevent != 6) {
-    alert("Enter the event for state transiiton in the table");
+  else if (lenevent != 6) { //event
+    alert("Enter all possible state transiiton in table 6. \n\n From the given problem statement, there are six state transitions.");
     document.getElementById('dispuml1').style.display = "none";
   }
  // document.getElementById("dispuml1").style.display="block";
