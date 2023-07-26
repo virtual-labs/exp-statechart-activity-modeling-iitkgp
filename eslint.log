@@ -1,0 +1,140 @@
+
+/home/runner/work/exp-statechart-activity-modeling-iitkgp/exp-statechart-activity-modeling-iitkgp/experiment/simulation/js/exercise2.js
+     9:10  warning  'addbtnt21' is defined but never used     no-unused-vars
+   302:10  warning  'addbtnt22' is defined but never used     no-unused-vars
+   380:10  warning  'removerowex2' is defined but never used  no-unused-vars
+   385:5   warning  '$' is not defined                        no-undef
+   399:10  warning  'addbtnt4' is defined but never used      no-unused-vars
+   404:10  warning  'donebtnt4' is defined but never used     no-unused-vars
+   488:10  warning  'addbtnt41' is defined but never used     no-unused-vars
+   589:10  warning  'addbtnt42' is defined but never used     no-unused-vars
+   686:10  warning  'radiobtn1' is defined but never used     no-unused-vars
+   698:10  warning  'nextactchng' is defined but never used   no-unused-vars
+   707:10  warning  'radiobtn2' is defined but never used     no-unused-vars
+   717:10  warning  'synachng' is defined but never used      no-unused-vars
+   725:10  warning  'radiobtn3' is defined but never used     no-unused-vars
+   735:10  warning  'synbchng' is defined but never used      no-unused-vars
+   744:10  warning  'radiobtn4' is defined but never used     no-unused-vars
+   755:10  warning  'nxtbchng' is defined but never used      no-unused-vars
+   762:10  warning  'radiobtn5' is defined but never used     no-unused-vars
+   773:10  warning  'syncchng' is defined but never used      no-unused-vars
+   782:10  warning  'radiobtn6' is defined but never used     no-unused-vars
+   793:10  warning  'syndchng' is defined but never used      no-unused-vars
+   800:10  warning  'addbtnt26' is defined but never used     no-unused-vars
+   941:10  warning  'drawbtex2' is defined but never used     no-unused-vars
+   943:8   warning  'lengthact' is not defined                no-undef
+   943:28  warning  'lenstate' is not defined                 no-undef
+   947:13  warning  'lengthact' is not defined                no-undef
+   952:13  warning  'lenstate' is not defined                 no-undef
+   959:19  warning  'joint' is not defined                    no-undef
+   961:19  warning  'joint' is not defined                    no-undef
+   963:3   warning  'paper' is not defined                    no-undef
+   963:15  warning  'joint' is not defined                    no-undef
+   978:23  warning  'joint' is not defined                    no-undef
+   989:21  warning  'joint' is not defined                    no-undef
+  1001:18  warning  'joint' is not defined                    no-undef
+  1021:18  warning  'joint' is not defined                    no-undef
+  1041:18  warning  'joint' is not defined                    no-undef
+  1051:18  warning  'joint' is not defined                    no-undef
+  1070:18  warning  'joint' is not defined                    no-undef
+  1082:18  warning  'joint' is not defined                    no-undef
+  1101:18  warning  'joint' is not defined                    no-undef
+  1113:19  warning  'joint' is not defined                    no-undef
+  1122:18  warning  'joint' is not defined                    no-undef
+  1142:18  warning  'joint' is not defined                    no-undef
+  1162:18  warning  'joint' is not defined                    no-undef
+  1202:19  warning  'joint' is not defined                    no-undef
+  1219:19  warning  'joint' is not defined                    no-undef
+  1237:19  warning  'joint' is not defined                    no-undef
+  1255:19  warning  'joint' is not defined                    no-undef
+  1273:19  warning  'joint' is not defined                    no-undef
+  1291:19  warning  'joint' is not defined                    no-undef
+  1319:19  warning  'joint' is not defined                    no-undef
+  1346:19  warning  'joint' is not defined                    no-undef
+  1364:19  warning  'joint' is not defined                    no-undef
+  1381:20  warning  'joint' is not defined                    no-undef
+  1398:20  warning  'joint' is not defined                    no-undef
+  1415:20  warning  'joint' is not defined                    no-undef
+  1432:20  warning  'joint' is not defined                    no-undef
+  1449:20  warning  'joint' is not defined                    no-undef
+  1476:20  warning  'joint' is not defined                    no-undef
+
+/home/runner/work/exp-statechart-activity-modeling-iitkgp/exp-statechart-activity-modeling-iitkgp/experiment/simulation/js/main.js
+    9:10  warning  'subex' is defined but never used             no-unused-vars
+   59:10  warning  'viewsolutionb' is defined but never used     no-unused-vars
+   74:10  warning  'solview' is defined but never used           no-unused-vars
+   91:44  warning  'newtdp' is defined but never used            no-unused-vars
+   91:52  warning  'newtdID' is assigned a value but never used  no-unused-vars
+  100:10  warning  'addbtnt1' is defined but never used          no-unused-vars
+  265:12  warning  'addbtnt2' is defined but never used          no-unused-vars
+  284:1   warning  'newuLi' is not defined                       no-undef
+  285:1   warning  'newuLi' is not defined                       no-undef
+  286:1   warning  'newLi' is not defined                        no-undef
+  287:1   warning  'newLi' is not defined                        no-undef
+  290:1   warning  'newLi' is not defined                        no-undef
+  291:1   warning  'newLi' is not defined                        no-undef
+  292:1   warning  'newLi' is not defined                        no-undef
+  293:1   warning  'newLi' is not defined                        no-undef
+  294:1   warning  'newuLi' is not defined                       no-undef
+  294:20  warning  'newLi' is not defined                        no-undef
+  327:61  warning  'newuLi' is not defined                       no-undef
+  341:10  warning  'removerow' is defined but never used         no-unused-vars
+  344:27  warning  '$' is not defined                            no-undef
+  346:9   warning  '$' is not defined                            no-undef
+  347:8   warning  '$' is not defined                            no-undef
+  348:8   warning  '$' is not defined                            no-undef
+  349:8   warning  '$' is not defined                            no-undef
+  350:9   warning  '$' is not defined                            no-undef
+  368:10  warning  'removerowuc' is defined but never used       no-unused-vars
+  374:5   warning  '$' is not defined                            no-undef
+  392:10  warning  'addbtnt3' is defined but never used          no-unused-vars
+  412:1   warning  'newuLin' is not defined                      no-undef
+  413:1   warning  'newLin' is not defined                       no-undef
+  414:1   warning  'newuLin' is not defined                      no-undef
+  426:1   warning  'newLin' is not defined                       no-undef
+  427:1   warning  'newuLin' is not defined                      no-undef
+  427:21  warning  'newLin' is not defined                       no-undef
+  445:61  warning  'newuLin' is not defined                      no-undef
+  458:10  warning  'addbtnt5' is defined but never used          no-unused-vars
+  497:2   warning  'tr' is not defined                           no-undef
+  498:3   warning  'tr' is not defined                           no-undef
+  499:52  warning  'tr' is not defined                           no-undef
+  532:3   warning  'tr' is not defined                           no-undef
+  533:3   warning  'tr' is not defined                           no-undef
+  534:3   warning  'tr' is not defined                           no-undef
+  535:3   warning  'tr' is not defined                           no-undef
+  536:3   warning  'tr' is not defined                           no-undef
+  537:3   warning  'tr' is not defined                           no-undef
+  538:52  warning  'tr' is not defined                           no-undef
+  545:10  warning  'drawbtex1' is defined but never used         no-unused-vars
+  567:19  warning  'joint' is not defined                        no-undef
+  569:19  warning  'joint' is not defined                        no-undef
+  571:3   warning  'paper' is not defined                        no-undef
+  571:15  warning  'joint' is not defined                        no-undef
+  586:23  warning  'joint' is not defined                        no-undef
+  597:21  warning  'joint' is not defined                        no-undef
+  609:20  warning  'joint' is not defined                        no-undef
+  629:19  warning  'joint' is not defined                        no-undef
+  650:20  warning  'joint' is not defined                        no-undef
+  669:19  warning  'joint' is not defined                        no-undef
+  688:20  warning  'joint' is not defined                        no-undef
+  707:19  warning  'joint' is not defined                        no-undef
+  726:3   warning  'joint' is not defined                        no-undef
+  741:19  warning  'joint' is not defined                        no-undef
+  758:17  warning  'joint' is not defined                        no-undef
+  776:17  warning  'joint' is not defined                        no-undef
+  792:23  warning  'joint' is not defined                        no-undef
+  808:29  warning  'joint' is not defined                        no-undef
+  824:25  warning  'joint' is not defined                        no-undef
+
+/home/runner/work/exp-statechart-activity-modeling-iitkgp/exp-statechart-activity-modeling-iitkgp/experiment/simulation/js/simulation.js
+    7:10  warning  'playsimulation' is defined but never used  no-unused-vars
+   34:10  warning  'gonextp2' is defined but never used        no-unused-vars
+   70:10  warning  'gonextp3' is defined but never used        no-unused-vars
+   85:14  warning  'gonextp31' is defined but never used       no-unused-vars
+   96:14  warning  'gonextp32' is defined but never used       no-unused-vars
+  129:10  warning  'gonextp4' is defined but never used        no-unused-vars
+  151:12  warning  'replaybtn' is defined but never used       no-unused-vars
+
+✖ 131 problems (0 errors, 131 warnings)
+

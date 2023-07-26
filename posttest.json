@@ -1,0 +1,30 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What does an entry action of a state indicate?",
+      "answers": {
+        "a": "Action performed after the system moves into the given state",
+        "b": "Action performed before system moves into the given state ",
+        "c": "An optional action performed when system moves into the given state ",
+        "d":"None of the above"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What does the guard condition depicted over the transition between any two states indicate?",
+      "answers": {
+        "a": "A condition that must be true for the transition to happen ",
+        "b": "A condition that must be false for the transition to occur",
+        "c": " An indicator that this transition should not happen",
+        "d": "An event that might happen as result of the transition"
+       
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+    
+  ]
+}
