@@ -7,15 +7,13 @@
 <b>Discipline | <b> Computer Science  Engineering
 :--|:--|
 <b> Lab | <b> **Software Engineering**
-<b> Experiment|     <b> **Modeling UML Class Diagrams and Sequence diagrams and Experiment No. 7**
+<b> Experiment|     <b> **Statechart and Activity Modeling and Experiment No. 6**
 
 
 ### About the Experiment 
-Classes are the structural units in object oriented system design approach, so it is essential to know all the relationships that exist between the classes, in a system. All objects in a system are also interacting to each other by means of passing messages from one object to another. Sequence diagram shows these interactions with time ordering of the messages.
+Capturing the dynamic view of a system is very important for a developer to develop the logic for a system. State chart diagrams and activity diagrams are two popular UML diagram to visualize the dynamic behavior of an information system.
 
-In this Experiment, we will learn about the representation of class diagram and sequence diagram. We also learn about different relationships that exist among the classes, in a system.
-
-From the experiment of sequence diagram, we will learn about different types of messages passing in between the objects and time ordering of those messages, in a system.
+In this experiment, we will learn about the different components of activity diagram and state chart diagram and how these can be used to represent the dynamic nature of an information system.
 
 
 
@@ -43,7 +41,6 @@ From the experiment of sequence diagram, we will learn about different types of 
 SrNo | Name | VLabs Developer or Integration Engineer | Department| Institute
 :--|:--|:--|:--|:--|
 1 | **Prakriti Dhang** | Developer & Integration |  Department of Mechanical Engineering | IIT Kharagpur |
-2 | **Saptarshi Mondal** | Developer & Integration |  Department of Mechanical Engineering | IIT Kharagpur |
 2 | **Barun Kumar Saha** | Developer |  Department of Mechanical Engineering | IIT Kharagpur | 
 3 | **Tuhin Chakrabarty** | Developer |  Department of Mechanical Engineering | IIT Kharagpur | 
 4 | **Bibudhendu Pati** | Developer |  Department of Mechanical Engineering | IIT Kharagpur | 
