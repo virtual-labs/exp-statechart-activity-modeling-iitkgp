@@ -912,10 +912,10 @@ function addbtnt26() {
   newtrt7.appendChild(newtdt7g);
 
 
-  if ((c1bvalt6.toLowerCase() == "firefox") && (synbvalt6.toLowerCase() == "merge") && (a2bvalt6.toLowerCase() == "changes")) {
+  if ((c1bvalt6.toLowerCase() == "firefox" || "FF") && (synbvalt6.toLowerCase() == "merge") && (a2bvalt6.toLowerCase() == "changes" || "make changes")) {
     document.getElementById('tbodytbt7').appendChild(newtrt7);
   }
-  else if ((c1bvalt6.toLowerCase() == "internet explorer") && (synbvalt6.toLowerCase() == "merge") && (a2bvalt6.toLowerCase() == "changes")) {
+  else if ((c1bvalt6.toLowerCase() == "internet explorer" || "IE") && (synbvalt6.toLowerCase() == "merge") && (a2bvalt6.toLowerCase() == "changes" || "make changes")) {
     document.getElementById('tbodytbt7').appendChild(newtrt7);
   }
   else {
