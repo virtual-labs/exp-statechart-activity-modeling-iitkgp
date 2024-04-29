@@ -1,0 +1,41 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "A state can contain one or more sub-state(s) within it",
+      "answers": {
+        "a": "True",
+        "b": "False"
+       
+       
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What does forking of several activities from a synchronization point indicate?",
+      "answers": {
+        "a": "All those activities should get executed one after another  ",
+        "b": "The activities can be performed in parallel  ",
+        "c": " One or more activities could be skipped"
+       
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A decision point in an activity diagram is a control wher",
+      "answers": {
+        "a": "Multiple parallel activities merge",
+        "b": "Decision is taken whether a transition should happen",
+        "c": "A condition is checked and decided which activity should be performed next ",
+        "d": "There is no such control "
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
